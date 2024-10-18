@@ -46,7 +46,7 @@ const Footer = () => {
             <div>
               <p className="font-bold underline">About</p>
              <Link to="/about-us"> <p className="mt-4 hover:underline cursor-pointer">About Us</p></Link>
-              <p className="mt-2 cursor-pointer hover:underline">Map Location</p>
+             <Link to="/location"><p className="mt-2 cursor-pointer hover:underline">Map Location</p></Link> 
               <Link to="/contact-us"><p className="mt-2 cursor-pointer hover:underline">Contact Us</p></Link>
               <p className="mt-2">Terms & Conditions</p>
             </div>
