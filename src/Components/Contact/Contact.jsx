@@ -58,7 +58,7 @@ const Contact = () => {
 
         <form onSubmit={onSubmit}>
           <div className="mb-4">
-            <label className="block text-gray-700 text-sm font-bold mb-2">Your Name</label>
+            <label className="block text-gray-700 text-sm font-bold mb-2">Your Name:</label>
             <input
               type="text"
               name="name"
@@ -69,7 +69,7 @@ const Contact = () => {
           </div>
 
           <div className="mb-4">
-            <label className="block text-gray-700 text-sm font-bold mb-2">Email</label>
+            <label className="block text-gray-700 text-sm font-bold mb-2">Email:</label>
             <input
               type="email"
               name="email"
