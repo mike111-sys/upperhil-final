@@ -126,7 +126,7 @@ const Programmes = () => {
       </table>
 
       {/*Fifth Table*/}
-      <table className="min-w-full bg-white border mt-11 border-gray-200 shadow-md rounded-lg overflow-hidden">
+      <table className="min-w-full bg-white border ml-2 md:ml-0 mt-11 border-gray-200 shadow-md overflow-hidden rounded-lg ">
         <thead>
           <tr className="bg-gray-100">
             <th colSpan="4" className="text-center py-4 text-xl font-bold rounded-t-lg">
