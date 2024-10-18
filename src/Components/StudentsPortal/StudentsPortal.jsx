@@ -1,5 +1,6 @@
 import React from 'react'
 import logo from '../../assets/school_logo.jpg'
+import { Link } from 'react-router-dom'
 
 const StudentsPortal = () => {
   return (
@@ -10,6 +11,7 @@ const StudentsPortal = () => {
       </div>
 
       {/* Form Section */}
+      <Link to='/'><button className='absolute top-5 bg-blue-500 p-3 rounded-3xl hover:bg-blue-700 right-5'>Return Home</button></Link>
       <div className="w-full mt-28 md:w-1/2 p-6">
       <h1 className="text-3xl font-bold text-blue-800 text-center text-green-700 mb-3">Dear Student!</h1>
         <h1 className="text-2xl font-bold text-blue-800 text-center mb-6 md:text-3xl">Student Portal Coming Soon</h1>

@@ -13,7 +13,7 @@ const Programmes = () => {
         <thead>
           <tr className="bg-gray-100">
             <th colSpan="4" className="text-center py-4 text-xl font-bold rounded-t-lg">
-              Accounting & Advanced Packages
+              COURSES & REQUIREMENTS
             </th>
           </tr>
           <tr className="bg-blue-500 text-white">
@@ -243,7 +243,7 @@ const Programmes = () => {
         </tbody>
       </table>
        {/*Ninth Table*/}
-       <table className="min-w-full bg-white border mt-11 border-gray-200 shadow-md rounded-lg overflow-hidden">
+       <table className="min-w-full mb-16 bg-white border mt-11 border-gray-200 shadow-md rounded-lg overflow-hidden">
         <thead>
           <tr className="bg-gray-100">
             <th colSpan="4" className="text-center py-4 text-xl font-bold rounded-t-lg">

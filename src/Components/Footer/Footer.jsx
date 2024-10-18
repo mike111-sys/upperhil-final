@@ -16,7 +16,7 @@ const Footer = () => {
           <img src={logo} alt="Upperhill College Logo" className="w-auto h-40 mb-4 mx-auto sm:mx-0"/>
           <p className="font-bold text-lg text-amber-500 text-center sm:text-left ">UPPERHILL COLLEGE OF PROFESSIONAL STUDIES</p>
           <p className="font-bold text-base text-center sm:text-left">Where bright future unlocks!</p>
-          <p className=" text-center sm:text-left">Nakuru, Kenyatta Avenue</p>
+          <p className=" text-center sm:text-left">Nakuru, Naivasha</p>
         </div>
 
         {/* Second Section - Two Columns on Small Screens */}

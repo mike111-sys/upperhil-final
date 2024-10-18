@@ -66,13 +66,20 @@ const Navbar = () => {
             About Us
           
         </li>
+        
+        </Link>
+       <Link to='/contact-us'> <li className="list-none mx-6 text-white text-[15px] mt-8 md:mt-0">
+          
+            Contact Us
+            
+        </li>
         </Link>
         <li className="list-none mx-3 text-white text-[11px] md:text-[15px] mt-8 md:mt-0">
   <Link 
-    to="/contact-us" 
+    to="/students-portal" 
     className="btn text-[11px] !important  md:text-[15px]"  // Setting a smaller text size
   >
-    Contact Us
+    Student Portal
   </Link>
 </li>
       
