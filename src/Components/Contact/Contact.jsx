@@ -100,7 +100,7 @@ const Contact = () => {
             >
               {formStatus === "sending" ? "Sending..." : "Submit now"}
             </button>
-            {formStatus === "success" && <p className="text-green-500 mt-4">{formMessage}</p>}
+            {formStatus === "success" && <p className="text-blue-700 mt-4">{formMessage}</p>}
             {formStatus === "error" && <p className="text-red-500 mt-4">{formMessage}</p>}
           </div>
         </form>
