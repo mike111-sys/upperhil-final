@@ -7,7 +7,7 @@ import college_pic from "../../assets/college-pic.jpeg"
 const About = ({ setPlayState }) => {
   return (
     <>
-    <div className="w-full min-h-screen bg-cover bg-center flex justify-center text-white" style={{
+    <div className="w-full min-h-screen bg-cover bg-center flex justify-center text-white fade-in-bg" style={{
         backgroundImage: `linear-gradient(rgba(8,0,58,0.7),rgba(8,0,58,0.7)), url(${college_pic})`,
       }}>
         <div className="mt-44">

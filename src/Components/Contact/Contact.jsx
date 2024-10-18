@@ -41,10 +41,10 @@ const Contact = () => {
   };
 
   return (
-    <div className="flex flex-col md:flex-row items-center p-6 bg-green-400 min-h-screen">
+    <div className="flex flex-col md:flex-row items-center p-6 bg-green-400 min-h-screen fade-in-bg">
       {/* Image Section */}
       <div className="w-full mt-24 md:w-1/2">
-        <img src={contact} alt="Contact Us" className="w-full h-full object-cover rounded-lg shadow-lg" />
+        <img src={contact} alt="Contact Us" className="w-full h-full object-cover rounded-lg shadow-lg fade-in-bg" />
       </div>
 
       {/* Form Section */}

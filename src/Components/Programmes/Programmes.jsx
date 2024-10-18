@@ -3,7 +3,7 @@ import Programmmes from "./ProgrammeFiles";  // Import the data from ProgrammeFi
 
 const Programmes = () => {
   return (
-    <div className="flex flex-col items-center p-6 bg-green-400 min-h-screen">
+    <div className="flex flex-col items-center p-6 bg-green-400 min-h-screen fade-in-bg">
       <p className="mt-36 text-2xl md:text-3xl font-bold text-blue-800 text-center text-green-700 mb-3">
         UPPERHILL COLLEGE OF PROFESSIONAL STUDIES
       </p>

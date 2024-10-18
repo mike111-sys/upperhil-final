@@ -15,17 +15,19 @@ import edu_3 from "../../assets/edu_3.jpg"
 import cap from "../../assets/grad-cap.jpg"
 import { FaLongArrowAltRight } from "react-icons/fa";
 import { Link as ScrollLink } from 'react-scroll';
+import "./Hero.css" 
 
 const Hero = () => {
   return (
     <>
     <div
-      id="hero"
-      className="w-full min-h-screen bg-cover bg-center flex items-center justify-center text-white"
-      style={{
-        backgroundImage: `linear-gradient(rgba(8,0,58,0.7),rgba(8,0,58,0.7)), url(${heroImage})`,
-      }}
-    >
+  id="hero"
+  className="w-full min-h-screen bg-cover bg-center flex items-center justify-center text-white fade-in-bg"
+  style={{
+    backgroundImage: `linear-gradient(rgba(8,0,58,0.7),rgba(8,0,58,0.7)), url(${heroImage})`,
+  }}
+>
+
       <div className="text-center max-w-2xl animate-fadeIn">
         <h1 className="text-4xl md:text-5xl font-medium mb-4">
           {" "}
