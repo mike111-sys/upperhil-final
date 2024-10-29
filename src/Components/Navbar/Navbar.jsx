@@ -39,7 +39,7 @@ const Navbar = () => {
       <img
         src={menu_icon}
         alt="Menu Icon"
-        className="md:hidden w-[26px] cursor-pointer z-20"
+        className="w-[26px] cursor-pointer z-20 md:hidden"
         onClick={toggleMenu}
       />
       <ul
@@ -74,7 +74,7 @@ const Navbar = () => {
             
         </li>
         </Link>
-        <li className="list-none mx-3 text-white text-[11px] md:text-[15px] mt-8 md:mt-0">
+        <li className="list-none mx-0 md:mx-3 text-white text-[11px] md:text-[15px] mt-8 md:mt-0">
   <Link 
     to="/students-portal" 
     className="btn text-[11px] !important  md:text-[15px]"  // Setting a smaller text size

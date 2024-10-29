@@ -1,5 +1,5 @@
 import React from "react";
-import Programmmes from "./ProgrammeFiles";  // Import the data from ProgrammeFiles
+import Programmmes from "./ProgrammeFiles"; // Import the data from ProgrammeFiles
 
 const Programmes = () => {
   return (
@@ -12,7 +12,10 @@ const Programmes = () => {
       <table className="min-w-full bg-white border mt-11 border-gray-200 shadow-md rounded-lg overflow-hidden">
         <thead>
           <tr className="bg-gray-100">
-            <th colSpan="4" className="text-center py-4 text-xl font-bold rounded-t-lg">
+            <th
+              colSpan="4"
+              className="text-center py-4 text-xl font-bold rounded-t-lg"
+            >
               COURSES & REQUIREMENTS
             </th>
           </tr>
@@ -38,7 +41,10 @@ const Programmes = () => {
       <table className="min-w-full bg-white border mt-11 border-gray-200 shadow-md rounded-lg overflow-hidden">
         <thead>
           <tr className="bg-gray-100">
-            <th colSpan="4" className="text-center py-4 text-xl font-bold rounded-t-lg">
+            <th
+              colSpan="4"
+              className="text-center py-4 text-xl font-bold rounded-t-lg"
+            >
               School of Information Communication Technology
             </th>
           </tr>
@@ -69,7 +75,10 @@ const Programmes = () => {
       <table className="min-w-full bg-white border mt-11 border-gray-200 shadow-md rounded-lg overflow-hidden">
         <thead>
           <tr className="bg-gray-100">
-            <th colSpan="4" className="text-center py-4 text-xl font-bold rounded-t-lg">
+            <th
+              colSpan="4"
+              className="text-center py-4 text-xl font-bold rounded-t-lg"
+            >
               School of Tourism & Hospitality
             </th>
           </tr>
@@ -99,7 +108,10 @@ const Programmes = () => {
       <table className="min-w-full bg-white border mt-11 border-gray-200 shadow-md rounded-lg overflow-hidden">
         <thead>
           <tr className="bg-gray-100">
-            <th colSpan="4" className="text-center py-4 text-xl font-bold rounded-t-lg">
+            <th
+              colSpan="4"
+              className="text-center py-4 text-xl font-bold rounded-t-lg"
+            >
               School of Business
             </th>
           </tr>
@@ -129,7 +141,10 @@ const Programmes = () => {
       <table className="min-w-full bg-white border ml-2 md:ml-0 mt-11 border-gray-200 shadow-md overflow-hidden rounded-lg ">
         <thead>
           <tr className="bg-gray-100">
-            <th colSpan="4" className="text-center py-4 text-xl font-bold rounded-t-lg">
+            <th
+              colSpan="4"
+              className="text-center py-4 text-xl font-bold rounded-t-lg"
+            >
               School of Journalism & Mass Communication
             </th>
           </tr>
@@ -159,7 +174,10 @@ const Programmes = () => {
       <table className="min-w-full bg-white border mt-11 border-gray-200 shadow-md rounded-lg overflow-hidden">
         <thead>
           <tr className="bg-gray-100">
-            <th colSpan="4" className="text-center py-4 text-xl font-bold rounded-t-lg">
+            <th
+              colSpan="4"
+              className="text-center py-4 text-xl font-bold rounded-t-lg"
+            >
               School of Health Sciences
             </th>
           </tr>
@@ -184,11 +202,14 @@ const Programmes = () => {
           </tr>
         </tbody>
       </table>
-       {/*Seventh Table*/}
-       <table className="min-w-full bg-white border mt-11 border-gray-200 shadow-md rounded-lg overflow-hidden">
+      {/*Seventh Table*/}
+      <table className="min-w-full bg-white border mt-11 border-gray-200 shadow-md rounded-lg overflow-hidden">
         <thead>
           <tr className="bg-gray-100">
-            <th colSpan="4" className="text-center py-4 text-xl font-bold rounded-t-lg">
+            <th
+              colSpan="4"
+              className="text-center py-4 text-xl font-bold rounded-t-lg"
+            >
               School of Fashion & Dressmaking
             </th>
           </tr>
@@ -213,11 +234,14 @@ const Programmes = () => {
           </tr>
         </tbody>
       </table>
-       {/*Eighth Table*/}
-       <table className="min-w-full bg-white border mt-11 border-gray-200 shadow-md rounded-lg overflow-hidden">
+      {/*Eighth Table*/}
+      <table className="min-w-full bg-white border mt-11 border-gray-200 shadow-md rounded-lg overflow-hidden">
         <thead>
           <tr className="bg-gray-100">
-            <th colSpan="4" className="text-center py-4 text-xl font-bold rounded-t-lg">
+            <th
+              colSpan="4"
+              className="text-center py-4 text-xl font-bold rounded-t-lg"
+            >
               School of Hair Dressing & Beauty
             </th>
           </tr>
@@ -242,11 +266,14 @@ const Programmes = () => {
           </tr>
         </tbody>
       </table>
-       {/*Ninth Table*/}
-       <table className="min-w-full mb-16 bg-white border mt-11 border-gray-200 shadow-md rounded-lg overflow-hidden">
+      {/*Ninth Table*/}
+      <table className="min-w-full mb-16 bg-white border mt-11 border-gray-200 shadow-md rounded-lg overflow-hidden">
         <thead>
           <tr className="bg-gray-100">
-            <th colSpan="4" className="text-center py-4 text-xl font-bold rounded-t-lg">
+            <th
+              colSpan="4"
+              className="text-center py-4 text-xl font-bold rounded-t-lg"
+            >
               School of Engineering
             </th>
           </tr>
