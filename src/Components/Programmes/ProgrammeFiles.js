@@ -11,7 +11,7 @@ const Programmmes = {
         { course: 'Certificate in Food & Beverage', grade: 'D Plain', terms: 3, fees: 11000 },
         { course: 'Certificate in Catering', grade: 'D Plain', terms: 3, fees: 11000 },
         { course: 'Diploma in Food & Beverage', grade: 'C Minus', terms: 6, fees:14000 },
-        { course: 'Diploma in Tourism Managemen', grade: 'C Minus', terms: 6, fees: 14000 }
+        { course: 'Diploma in Tourism Management', grade: 'C Minus', terms: 6, fees: 14000 }
       ],
       course_4: [
         { course: 'Certificate in Business Management', grade: 'D Plain', terms: 3, fees: 11000 },
